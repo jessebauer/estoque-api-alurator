@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/alurator.iml" filepath="$PROJECT_DIR$/alurator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../1-alurator-playground/alurator-playground/alurator-playground.iml" filepath="$PROJECT_DIR$/../../1-alurator-playground/alurator-playground/alurator-playground.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../1-estoque-api/estoque-api/estoque-api.iml" filepath="$PROJECT_DIR$/../../1-estoque-api/estoque-api/estoque-api.iml" />
+    </modules>
+  </component>
+</project>
