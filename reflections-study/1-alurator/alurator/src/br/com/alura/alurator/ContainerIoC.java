@@ -48,8 +48,18 @@ public class ContainerIoC {
     }
 
     private boolean verificaCompatibilidade(Class<?> tipoFonte, Class<?> tipoDestino) {
-        // Verifica se tipoDestino é compatível com tipoFonte
-
-        return compativel;
+//        Verificação na raça
+//        boolean compativel;
+//
+//        if (tipoFonte.isInterface()) {
+//            compativel = Stream.of(tipoDestino.getInterfaces())
+//                    .anyMatch(interfaceImplementada -> interfaceImplementada.equals(tipoFonte));
+//        } else {
+//            compativel = tipoDestino.getSuperclass().equals(tipoFonte)
+//                    || tipoDestino.equals(tipoFonte);
+//        }
+//        return compativel;
+        boolean assignableFrom = tipoFonte.isAssignableFrom(tipoDestino);
+        return assignableFrom;
     }
 }
